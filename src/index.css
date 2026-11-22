@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #1c1917;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #fbcfe8;
+}
+
+/* Elements slide up slightly while fading in. "backwards" keeps them hidden
+   during their delay and hands control back afterwards, so hover transforms
+   still work on the same element. */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.fade-up { animation: fade-up 0.5s cubic-bezier(0.2, 0.7, 0.3, 1) backwards; }
+.fade-in { animation: fade-in 0.2s ease-out backwards; }
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-up, .fade-in { animation: none; }
+  *, *::before, *::after { transition-duration: 0.01ms !important; }
+}

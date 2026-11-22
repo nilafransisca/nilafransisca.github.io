@@ -22,7 +22,7 @@ export const skillGroups = [
   {
     number: "01",
     title: "Front-end",
-    items: ["HTML & CSS", "JavaScript", "ReactJS", "Tailwind CSS", "Bootstrap"],
+    items: ["HTML & CSS", "JavaScript", "ReactJs", "Tailwind CSS", "Bootstrap"],
   },
   {
     number: "02",
@@ -37,12 +37,12 @@ export const skillGroups = [
   {
     number: "04",
     title: "Software QA",
-    items: ["Manual & Black Box Testing", "Test Case & Scenario", "Bug Reporting"],
+    items: ["Manual Testing", "Black Box Testing", "Test Case Scenario", "Bug Reporting"],
   },
   {
     number: "05",
     title: "Tools",
-    items: ["Git & GitHub", "VS Code", "Visual Studio", "Postman"],
+    items: ["Git & GitHub", "Azure DevOps", "VS Code", "Visual Studio", "Postman"],
   },
   {
     number: "06",

@@ -1,6 +1,6 @@
 # Nila Fransisca — Portfolio
 
-Personal portfolio of Nila Fransisca Hardiyeni, UI/UX Designer & Front-End Developer.
+Personal portfolio of Nila Fransisca Hardiyeni, Junior Full Stack Developer.
 
 Built with React, Vite and Tailwind CSS.
 
